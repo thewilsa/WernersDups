@@ -17,6 +17,7 @@ namespace WernersDups
     public partial class Form1 : Form
     {
         Duplicate dup = new Duplicate();
+
         BindingList<DuplicateEntry> dups = new BindingList<DuplicateEntry>();
         Boolean isSearching = false;
 
